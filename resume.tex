@@ -1,0 +1,131 @@
+%
+% Chad Maughan
+% LaTeX Resume
+%
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}									% allows hyperlinking
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=1in]{geometry}						% set the page margins
+\usepackage{tabularx}
+
+\usepackage{marvosym} 									% for contact symbols
+\usepackage{ifsym} 										% for contact symbols
+\usepackage{pifont}										% for bullet type
+\usepackage{enumitem}									% for bullet type
+
+\usepackage{tgheros}									% use a different font
+\renewcommand*\familydefault{\sfdefault} 					% use sans serif for document
+\usepackage[T1]{fontenc}
+
+\usepackage{sectsty}									% custom section fonts
+\sectionfont{\bfseries\scshape\Large\textcolor{BrickRed}}
+\subsectionfont{\mdseries\itshape\large}
+
+\setlength\parindent{0em}								% don't indent paragraphs
+\thispagestyle{empty}									% remove page number
+
+\def\name{Chad M. Maughan}								% name
+
+\hypersetup { 											% PDF metadata
+	colorlinks = true,
+	urlcolor = black,
+	pdfauthor = {\name},
+	pdfkeywords = {Chad Maughan, Computer Science},
+	pdftitle = {\name: Curriculum Vitae},
+	pdfsubject = {Curriculum Vitae},
+	pdfpagemode = UseNone
+}
+
+\newcommand{\keyword}[1]{\textcolor{BrickRed}{#1}}
+
+\begin{document}
+
+% LEFT COLUMN -------------------------------------------
+\begin{minipage}[t]{2in} 
+\begin{flushleft}
+
+\vspace{0.66in}
+
+\begin{tabular}{c|p{8cm}}
+%	\raisebox{-4pt}{\textifsymbol{18}} 	& address1 												\\ % Address
+%	\raisebox{-4pt}{} 				& address2		 										\\ [1ex]
+	\raisebox{-3pt}{\Mobilefone} 		& +1 (801) 747-9747 										\\ [.3ex] % phone
+	\raisebox{-1pt}{\Letter} 			& \href{mailto:chadmaughan@gmail.com}{chadmaughan@gmail.com} 	\\ [.3ex] % email
+	\Keyboard 					& \href{http://chadmaughan.com}{http://chadmaughan.com} 		\\ [.3ex] % web
+\end{tabular}
+
+\vspace{0.07in}
+
+\section*{Code}
+\href{http://bitbucket.org/chadmaughan}{http://bitbucket.org/chadmaughan}
+\href{http://github.com/chadmaughan}{http://github.com/chadmaughan}
+
+\vspace{0.07in}
+
+\section*{Skills}
+\begin{itemize}[label=\guilsinglright,leftmargin=*]
+	\item 10+ years of extensive Java experience with \keyword{Tomcat}, \keyword{Spring Framework}, \keyword{Hibernate}, \keyword{AspectJ}, building and consuming \keyword{SOAP} and \keyword{REST} APIs.
+	\item Strong, recent focus on client-side: \keyword{JavaScript}, \keyword{CSS}, \keyword{HTML5}, \keyword{Backbone.js}, \keyword{jQuery}, \keyword{Require.js}, \keyword{LESS}, \keyword{Handlebars.js}, and \keyword{GWT}.
+	\item Polyglot development experience: \keyword{C\#}, \keyword{Objective-C}, \keyword{Ruby}, \keyword{Python}, and \keyword{PHP}.
+	\item SCM: \keyword{Git}, \keyword{SVN} and \keyword{CVS}.
+	\item \keyword{DevOps} with \keyword{Linux}, \keyword{Amazon} and \keyword{Heroku}.
+	\item Unix utilities such as \keyword{sed}, \keyword{awk}, \keyword{vi}, and \keyword{{\LaTeX}}.
+	\item Good development experience with \keyword{Android} and \keyword{iOS}.
+	\item Strong with RDMS systems like \keyword{Postgresql}, \keyword{MySQL}, and \keyword{Oracle}, and noSQL solutions such as \keyword{CouchDB}, \keyword{Riak}, \keyword{Neo4j}.
+\end{itemize}
+
+\end{flushleft}
+\end{minipage}
+%
+\begin{minipage}[h]{.25in} 
+\
+\end{minipage}
+%
+% RIGHT COLUMN -------------------------------------------
+\begin{minipage}[t]{3.75in} 
+
+{\huge\scshape \name}
+\smallskip\\
+{\large Software Engineer}
+
+\vspace{0.1in}
+
+\section*{Profile}
+{\bfseries I'm a well-rounded individual wIth over a decade of experience in leading teams that ship powerful and innovative solutions.} \\
+
+I'm passionate about all aspects of software development, from developing native mobile and HTML5 client applications to architecting frameworks and RESTful APIs that scale on the backend. I'm intellectually curious and am always learning new languages and concepts. \\
+
+I recently completed my M.S. in Computer Science focusing my research on applying combinatorial testing practices to rich web applications.
+\section*{Experience}
+
+{\bfseries LDS Church, 2011--Present} \medskip\\
+Project lead and solution architect of three sensitive projects for the senior leadership of the LDS Church.
+\smallskip\\
+
+{\bfseries Christopherson Business Travel, 1999--2010} \medskip\\	
+Manager of software development team, lead developer, lead architect and decision maker in all things technology.  CBT's proprietary technology was a key part of their value proposition, contributing to rapid growth from 20 million (1998) to 260 million (2010) USD in annual revenue.
+
+
+\section*{Education}
+
+\begin{tabular}{rl}
+
+2012 
+& \textbf{M.S., Computer Science}	\\ 
+& \textit{Utah State University}	\\ [2ex]
+	 
+2005 
+& \textbf{B.S., Computer Science}, \textit{Cum Laude} 	\\ 
+& \textit{Weber State University}	\\
+	 
+\end{tabular}\\
+
+\section*{Publications}
+INTRODUCTION TO COMBINATORIAL TESTING \\
+\textit{Rich Web Applications Chapter} \\
+National Institute of Standards and Technology \\
+D. Richard Kuhn, et. al, October 2012 (In Press)
+\end{minipage}
+\end{document}
