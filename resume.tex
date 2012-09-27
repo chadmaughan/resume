@@ -5,7 +5,7 @@
 \documentclass[letterpaper]{article}
 
 \usepackage{hyperref}									% allows hyperlinking
-\usepackage{color}
+\usepackage{color}										% for the red
 \usepackage[dvipsnames]{xcolor}
 \usepackage[margin=1in]{geometry}						% set the page margins
 \usepackage{tabularx}
@@ -16,15 +16,18 @@
 \usepackage{enumitem}									% for bullet type
 
 \usepackage{tgheros}									% use a different font
-\renewcommand*\familydefault{\sfdefault} 					% use sans serif for document
+\renewcommand*\familydefault{\sfdefault} 				% use sans serif for document
 \usepackage[T1]{fontenc}
 
 \usepackage{sectsty}									% custom section fonts
 \sectionfont{\bfseries\scshape\Large\textcolor{BrickRed}}
 \subsectionfont{\mdseries\itshape\large}
 
+\usepackage{pdfpages}
+
 \setlength\parindent{0em}								% don't indent paragraphs
-\thispagestyle{empty}									% remove page number
+\thispagestyle{empty}									% remove page number (if no cover letter, i.e. single page)
+\pagenumbering{gobble}									% hides all page numbers
 
 \def\name{Chad M. Maughan}								% name
 
@@ -41,6 +44,8 @@
 \newcommand{\keyword}[1]{\textcolor{BrickRed}{#1}}
 
 \begin{document}
+
+%\includepdf{cover-letter.pdf}							% add in cover letter
 
 % LEFT COLUMN -------------------------------------------
 \begin{minipage}[t]{2in} 
