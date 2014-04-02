@@ -10,8 +10,7 @@
 \usepackage[margin=1in]{geometry}							% set the page margins
 \usepackage{tabularx}
 
-\usepackage{marvosym} 									% for contact symbols
-\usepackage{ifsym} 										% for contact symbols
+\usepackage{fontawesome}									% install font on machine and use XeLaTeX
 \usepackage{pifont}										% for bullet type
 \usepackage{enumitem}									% for bullet type
 
@@ -59,9 +58,10 @@
 \begin{tabular}{c|p{8cm}}
 %	\raisebox{-4pt}{\textifsymbol{18}} 		& address1 											\\ % Address
 %	\raisebox{-4pt}{} 				& address2		 									\\ [1ex]
-	\raisebox{-3pt}{\Mobilefone} 		& +1 (801) 747-9747 										\\ [.3ex] % phone
-	\raisebox{-1pt}{\Letter} 			& \href{mailto:chadmaughan@gmail.com}{chadmaughan@gmail.com} 	\\ [.3ex] % email
-	\Keyboard 						& \href{http://chadmaughan.com}{http://chadmaughan.com} 			\\ [.3ex] % web
+	\faPhone				 		& +1 (801) 747-9747 										\\ [.3ex] % phone
+	\faEnvelope		 			& \href{mailto:chadmaughan@gmail.com}{chadmaughan@gmail.com} 	\\ [.3ex] % email
+	\faGlobe						& \href{http://chadmaughan.com}{http://chadmaughan.com} 			\\ [.3ex] % web
+	\faTwitter						& \href{http://twitter.com/chadmaughan}{@chadmaughan}
 \end{tabular}
 
 \vspace{0.05in}
@@ -75,7 +75,7 @@
 \section*{Skills}
 \begin{itemize}[label=\guilsinglright,leftmargin=*]
 	\item 10+ years of extensive Java experience with \keyword{Tomcat}, \keyword{Spring Framework}, \keyword{Hibernate}, \keyword{AspectJ}, building and consuming \keyword{SOAP} and \keyword{REST} APIs.
-	\item Strong, recent focus on client-side: \keyword{JavaScript}, \keyword{CSS}, \keyword{HTML5}, \keyword{AngularJS}, \keyword{Backbone.js}, \keyword{GWT}, \keyword{jQuery} \keyword{Stylus}, \keyword{Handlebars.js}, \keyword{Grunt}, and \keyword{Node.js}.
+	\item Strong, recent focus on client-side: \keyword{JavaScript}, \keyword{CSS}, \keyword{HTML5}, \keyword{AngularJS}, \keyword{Backbone.js}, \keyword{GWT}, \keyword{jQuery}, \keyword{d3.js}, \keyword{Grunt}, and \keyword{Node.js}.
 	\item Polyglot development experience: \keyword{C\#}, \keyword{Objective-C}, \keyword{R}, \keyword{Ruby}, \keyword{Python}, and \keyword{PHP}.
 	\item SCM: \keyword{Git}, \keyword{SVN} and \keyword{CVS}.
 	\item \keyword{DevOps} with \keyword{Linux}, \keyword{Amazon} and \keyword{Heroku}.
