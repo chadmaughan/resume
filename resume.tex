@@ -7,7 +7,7 @@
 \usepackage{hyperref}									% allows hyperlinking
 \usepackage{color}										% for the red
 \usepackage[dvipsnames]{xcolor}
-\usepackage[margin=1in]{geometry}						% set the page margins
+\usepackage[margin=1in]{geometry}							% set the page margins
 \usepackage{tabularx}
 
 \usepackage{marvosym} 									% for contact symbols
@@ -15,18 +15,18 @@
 \usepackage{pifont}										% for bullet type
 \usepackage{enumitem}									% for bullet type
 
-\usepackage{tgheros}									% use a different font
-\renewcommand*\familydefault{\sfdefault} 				% use sans serif for document
+\usepackage{tgheros}										% use a different font
+\renewcommand*\familydefault{\sfdefault} 						% use sans serif for document
 \usepackage[T1]{fontenc}
 
-\usepackage{sectsty}									% custom section fonts
+\usepackage{sectsty}										% custom section fonts
 \sectionfont{\bfseries\scshape\Large\textcolor{BrickRed}}
 \subsectionfont{\mdseries\itshape\large}
 
 \usepackage{pdfpages}
 
-\setlength\parindent{0em}								% don't indent paragraphs
-\thispagestyle{empty}									% remove page number (if no cover letter, i.e. single page)
+\setlength\parindent{0em}									% don't indent paragraphs
+\thispagestyle{empty}										% remove page number (if no cover letter, i.e. single page)
 \pagenumbering{gobble}									% hides all page numbers
 
 \def\name{Chad M. Maughan}								% name
@@ -45,7 +45,10 @@
 
 \begin{document}
 
-% \includepdf{cover-letter.pdf}							% add in cover letter
+
+% COVER LETTER (uncomment next line to include) -------------------------------------------
+% \includepdf{cover-letter.pdf}								% add in cover letter
+
 
 % LEFT COLUMN -------------------------------------------
 \begin{minipage}[t]{2in} 
@@ -54,11 +57,11 @@
 \vspace{0.6in}
 
 \begin{tabular}{c|p{8cm}}
-%	\raisebox{-4pt}{\textifsymbol{18}} 	& address1 												\\ % Address
-%	\raisebox{-4pt}{} 				& address2		 										\\ [1ex]
+%	\raisebox{-4pt}{\textifsymbol{18}} 		& address1 											\\ % Address
+%	\raisebox{-4pt}{} 				& address2		 									\\ [1ex]
 	\raisebox{-3pt}{\Mobilefone} 		& +1 (801) 747-9747 										\\ [.3ex] % phone
 	\raisebox{-1pt}{\Letter} 			& \href{mailto:chadmaughan@gmail.com}{chadmaughan@gmail.com} 	\\ [.3ex] % email
-	\Keyboard 					& \href{http://chadmaughan.com}{http://chadmaughan.com} 		\\ [.3ex] % web
+	\Keyboard 						& \href{http://chadmaughan.com}{http://chadmaughan.com} 			\\ [.3ex] % web
 \end{tabular}
 
 \vspace{0.05in}
@@ -78,7 +81,7 @@
 	\item \keyword{DevOps} with \keyword{Linux}, \keyword{Amazon} and \keyword{Heroku}.
 	\item Unix utilities such as \keyword{sed}, \keyword{awk}, \keyword{vi}, and \keyword{{\LaTeX}}.
 	\item Good development experience with \keyword{Android} and \keyword{iOS}.
-	\item Strong with RDMS systems \keyword{Postgresql}, \keyword{MySQL}, and \keyword{Oracle}, and noSQL solutions \keyword{CouchDB}, \keyword{Riak}, and \keyword{Neo4j}.
+	\item Strong with RDMS systems \keyword{Postgresql}, \keyword{MySQL}, and \keyword{Oracle}, and noSQL solutions \keyword{CouchDB}, \keyword{MongoDB}, and \keyword{Neo4j}.
 \end{itemize}
 
 \end{flushleft}
@@ -87,6 +90,7 @@
 \begin{minipage}[h]{.25in} 
 \
 \end{minipage}
+%
 %
 % RIGHT COLUMN -------------------------------------------
 \begin{minipage}[t]{3.75in} 
@@ -105,13 +109,13 @@ I'm passionate about all aspects of software development, from developing native
 I completed my M.S. in Computer Science focusing my research on applying combinatorial testing practices to rich web applications.
 \section*{Experience}
 
-{\bfseries Domo, 2013--Present} \medskip\\
+{\bfseries Domo, 2013--Present} \smallskip\\
 Principal engineer and team lead focusing on data acquisition.\smallskip\\
 
-{\bfseries LDS Church, 2011--2013} \medskip\\
+{\bfseries LDS Church, 2011--2013} \smallskip\\
 Lead of "Stack team" (internal consulting, training and technology advocacy).  Preceding position of solution architect of sensitive projects for senior leadership.\smallskip\\
 
-{\bfseries Christopherson Business Travel, 1999--2011} \medskip\\	
+{\bfseries Christopherson Business Travel, 1999--2011} \smallskip\\	
 Manager of development team, lead developer and architect.  Contributor to rapid growth from 20 million (1998) to 260 million (2010) USD in annual revenue.
 
 
@@ -120,8 +124,8 @@ Manager of development team, lead developer and architect.  Contributor to rapid
 \begin{tabular}{rl}
 
 Dec. 2012 
-& \textbf{M.S., Computer Science}, GPA 3.5	\\ 
-& \textit{Utah State University}	\\ [2ex]
+& \textbf{M.S., Computer Science}, GPA 3.5		\\ 
+& \textit{Utah State University}				\\ [2ex]
 
 Dec. 2005 
 & \textbf{B.S., Computer Science}, \textit{Cum Laude} 	\\ 
