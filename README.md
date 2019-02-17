@@ -1,6 +1,6 @@
 Chad Maughan's Resume
 =======
-My concise (single page), elegant, and light on fluff (no objective section, etc.) LaTeX resume.
+My concise (single page), elegant (at least that's the intent), and light on fluff (no objective section, etc.) LaTeX resume.
 
 To add the (separately generated) cover letter, generate with pdfLaTeX then uncomment (remove %) the "\includepdf{cover-letter.pdf}" line in resume.tex.
 
