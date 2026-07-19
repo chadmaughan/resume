@@ -53,3 +53,7 @@ Cover letter
 `cover-letter.tex` is a template stub. To include a cover letter in front of the
 resume, build it separately (`pdflatex cover-letter.tex`) and then uncomment the
 `\includepdf{cover-letter.pdf}` line near the top of `resume.tex`.
+
+Note
+------------
+Repository migrated from bitbucket.org on 2026-07-19
