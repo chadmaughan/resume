@@ -24,3 +24,6 @@
 *.mtc1
 *.out
 *.synctex.gz
+
+# cover letter is a template; do not track its build
+cover-letter.pdf
