@@ -1,4 +1,4 @@
-Chad Maughan's Résumé
+Chad Maughan's Resume
 =====================
 
 My concise (single page), elegant (at least that's the intent), and light-on-fluff
