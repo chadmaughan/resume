@@ -4,7 +4,7 @@ Chad Maughan's Resume
 My concise (single page), elegant (at least that's the intent), and light-on-fluff
 LaTeX resume (no objective section, no filler). Built as a two-column layout.
 
-📄 **[Download the latest PDF](https://github.com/chadmaughan/resume/releases/latest/download/resume.pdf)** (from the most recent release)
+**[Download the latest PDF](https://github.com/chadmaughan/resume/releases/latest/download/resume.pdf)**
 
 More about me at [chadmaughan.com](https://chadmaughan.com).
 
